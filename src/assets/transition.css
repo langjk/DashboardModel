@@ -1,0 +1,38 @@
+.slide-left-enter-active,
+.slide-left-leave-active {
+    transition: all 0.4s ease-in-out;
+    position: absolute;
+    width: 100%;
+    z-index: 0 !important;
+}
+
+.slide-left-enter-from {
+    transform: translateX(-10%);
+    opacity: 0;
+    z-index: 0 !important;
+}
+
+.slide-left-leave-to {
+    transform: translateX(-10%);
+    opacity: 0;
+    z-index: 0 !important;
+}
+
+/* 向右滑入 + 向右滑出 */
+.slide-right-enter-active,
+.slide-right-leave-active {
+    transition: all 0.4s ease-in-out;
+    position: absolute;
+    width: 100%;
+    z-index: 0 !important;
+}
+
+.slide-right-enter-from {
+    transform: translateX(10%);
+    opacity: 0;
+}
+
+.slide-right-leave-to {
+    transform: translateX(10%);
+    opacity: 0;
+}
